@@ -13,49 +13,5 @@ body {
 }
 
 .container {
-  width: 820px;
-}
-.container .input {
-  display: flex;
-  justify-content: space-between;
-  background-color: #212F3D;
-  padding: 15px;
-  font-size: 1.3em;
-  border-radius: 10px;
-}
-.container .input input {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  font-family: inherit;
-  font-size: 1em;
-  color: white;
-}
-.container .input .price-input {
-  margin-left: 10px;
-  width: 60%;
-}
-.container .input .name-input {
-  width: 100%;
-  padding-left: 15px;
-}
-.container .input .price {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-.container .input button {
-  font-family: inherit;
-  font-size: 1em;
-  color: white;
-  background-color: #4D5A67;
-  padding: 20px 30px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-}
-.container .input input::-webkit-outer-spin-button,
-.container .input input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+  width: 840px;
 }/*# sourceMappingURL=styles.css.map */

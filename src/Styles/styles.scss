@@ -14,56 +14,5 @@ body {
 }
 
 .container {
-    width: 820px;
-
-    .input {
-        display: flex;
-        justify-content: space-between;
-        background-color: #212F3D;
-        padding: 15px;
-        font-size: 1.3em;
-        border-radius: 10px;
-
-        input {
-            background-color: transparent;
-            border: none;
-            outline: none;
-            font-family: inherit;
-            font-size: 1em;
-            color: white;
-        }
-
-        .price-input {
-            margin-left: 10px;
-            width: 60%;
-        }
-
-        .name-input {
-            width: 100%;
-            padding-left: 15px;
-        }
-
-        .price {
-            display: flex;
-            align-items: center;
-            justify-content: start;
-        }
-
-        button {
-            font-family: inherit;
-            font-size: 1em;
-            color: white;
-            background-color: #4D5A67;
-            padding: 20px 30px;
-            border: none;
-            outline: none;
-            border-radius: 5px;
-        }
-
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-        }
-    }
+    width: 840px;
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import './styles/styles.css'
 
 function Input() {
   return (
@@ -15,6 +15,7 @@ function Input() {
 					type="number"
 					name="Price"
 					placeholder="Price"
+                    value={'0'}
 				/>
 			</div>
 			<button>Add</button>
